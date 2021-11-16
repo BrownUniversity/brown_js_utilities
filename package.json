@@ -1,7 +1,7 @@
 {
-  "name": "@BrownUniversity/js_utilities",
+  "name": "@BrownUniversity/brown_js_utilities",
   "version": "0.0.1",
-  "description": "",
+  "description": "Library of reusable javascript helper functions.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "file": "dist",
@@ -18,7 +18,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
-    "url": "git://github.com/BrownUniversity/js_utilities"
+    "url": "git://github.com/BrownUniversity/brown_js_utilities"
   },
   "keywords": [],
   "author": "",
