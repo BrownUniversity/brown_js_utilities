@@ -1,0 +1,41 @@
+{
+  "name": "@BrownUniversity/js_utilities",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "file": "dist",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "build:components": "yarn build",
+    "build-watch": "rollup -c -w",
+    "dev": "build-watch",
+    "test": "jest",
+    "test-debug": "jest -o --watch --coverage=false"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git://github.com/BrownUniversity/js_utilities"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/jest-dom": "^5.15.0",
+    "rollup": "^2.26.5",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-ignore": "^1.0.9",
+    "rollup-plugin-import-css": "^2.0.1",
+    "rollup-plugin-react-svg": "^3.0.3",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
