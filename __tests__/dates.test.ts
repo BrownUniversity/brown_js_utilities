@@ -1,7 +1,7 @@
 import { settingsDateFormat } from "../src/dates";
 
 describe("settingsDateFormat", () => {
-  it("makes a string kebob case", () => {
+  it("it formats date by passed type", () => {
     const usFormat = settingsDateFormat("09/21/1975", "us")
     expect(usFormat).toEqual("9/21/1975");
 
