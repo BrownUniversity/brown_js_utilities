@@ -26,7 +26,7 @@ var capitalize = function (str) {
 
 function settingsDateFormat(date, type) {
     var dateFormats = {
-        us: "MM/DD/YYYY",
+        us: "M/D/YYYY",
         eu: "DD-MMM-YYYY",
         int: "YYYY/MM/DD"
     };
@@ -35,7 +35,7 @@ function settingsDateFormat(date, type) {
 
 var timeRegex = /\d\d?([:,]\d\d)?([ap]m)?/gi;
 function formatTime(time, militaryTime) {
-    var format = militaryTime ? "HH:mm" : "h:mmA";
+    var format = militaryTime ? "HH:mm" : "h:mm A";
     return moment__default["default"](time, ["hhmmA", "hmmA", "hhmm A", "hmm A"]).format(format);
 }
 function formatTimesWithinString(string, militaryTime) {

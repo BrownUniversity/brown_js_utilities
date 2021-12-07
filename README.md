@@ -15,7 +15,7 @@
 
 1. add to the root of your project a `.npmrc` file
 1. to that new `.npmrc` file add the line `@BrownUniversity:registry=https://npm.pkg.github.com/`
-1. install the library with `yarn add @BrownUniversity/js_utilities@0.0.1` (update the version number to the latest in the repo)
+1. install the library with `yarn add @BrownUniversity/brown_js_utilities@0.0.2` (update the version number to the latest in the repo)
 
 ## To Contribute to this Library
 
