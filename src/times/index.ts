@@ -6,7 +6,7 @@ export function formatTime(
   time: string | RegExpMatchArray,
   militaryTime: boolean
 ) {
-  const format = militaryTime ? "HH:mm" : "h:mmA";
+  const format = militaryTime ? "HH:mm" : "h:mm A";
   return moment(time, ["hhmmA", "hmmA", "hhmm A", "hmm A"]).format(format);
 }
 
