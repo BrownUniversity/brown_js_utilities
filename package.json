@@ -1,6 +1,6 @@
 {
   "name": "@BrownUniversity/brown_js_utilities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library of reusable javascript helper functions.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
