@@ -1,6 +1,7 @@
 import { toKebabCase, toCamelCase, capitalize } from "./string_formatters";
 import { settingsDateFormat } from "./dates";
 import { formatTime, formatTimesWithinString } from "./times";
+import { adjustColor } from "./colors";
 
 export {
   toKebabCase,
@@ -8,5 +9,6 @@ export {
   capitalize,
   formatTimesWithinString,
   formatTime,
-  settingsDateFormat
+  settingsDateFormat,
+  adjustColor
 };

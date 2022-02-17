@@ -8,11 +8,10 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "build:components": "yarn build",
     "build-watch": "rollup -c -w",
     "dev": "build-watch",
-    "test": "jest",
-    "test-debug": "jest -o --watch --coverage=false"
+    "test": "./node_modules/.bin/jest",
+    "test-debug": "./node_modules/.bin/jest -o --watch --coverage=false"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -30,6 +29,7 @@
     "@babel/preset-typescript": "^7.16.0",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.6",
+    "jest": "^27.5.1",
     "rollup": "^2.26.5",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-ignore": "^1.0.9",
