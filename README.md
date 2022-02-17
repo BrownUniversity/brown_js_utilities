@@ -36,6 +36,12 @@
 
 ## Available Utility Functions & How to Use Them
 
+### Color Manipulation
+
+| Function | Param(s) | Result |
+| --- | --- | --- |
+|`adjustColor` | string, number | takes a color hex value and a number by how much to adjust it, up to 100 (including negative numbers) |
+
 ### String Formatting Helper Functions
 
 | Function | Param(s) | Result |

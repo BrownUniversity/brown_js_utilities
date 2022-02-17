@@ -1,6 +1,6 @@
 {
   "name": "@BrownUniversity/brown_js_utilities",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library of reusable javascript helper functions.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -8,7 +8,6 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "build:components": "yarn build",
     "build-watch": "rollup -c -w",
     "dev": "build-watch",
     "test": "jest",
@@ -30,6 +29,7 @@
     "@babel/preset-typescript": "^7.16.0",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.6",
+    "jest": "^27.5.1",
     "rollup": "^2.26.5",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-ignore": "^1.0.9",
