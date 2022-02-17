@@ -10,8 +10,8 @@
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
     "dev": "build-watch",
-    "test": "./node_modules/.bin/jest",
-    "test-debug": "./node_modules/.bin/jest -o --watch --coverage=false"
+    "test": "jest",
+    "test-debug": "jest -o --watch --coverage=false"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
