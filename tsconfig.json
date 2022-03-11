@@ -25,7 +25,7 @@
     "esModuleInterop": true,
     "typeRoots": ["./@types", "./node_modules/@types"],
     "resolveJsonModule": true,
-    "allowJs": true,
+    "allowJs": false,
     "checkJs": false,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
