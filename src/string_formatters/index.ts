@@ -9,7 +9,7 @@ export const toKebabCase = (str: string) => {
 export const toCamelCase = (str: string) => {
   return str
     .toLowerCase()
-    .replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
+    .replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase());
 };
 
 export const capitalize = (str: string) => {
